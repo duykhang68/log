@@ -1,0 +1,62 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "silent": false,
+  "entry": "index.js",
+  "plugins": [
+    [
+      "/Users/elsu/Desktop/log/site/node_modules/react-static-plugin-source-filesystem/node.api.js",
+      {
+        "location": "/Users/elsu/Desktop/log/site/src/pages"
+      }
+    ],
+    "/Users/elsu/Desktop/log/site/node_modules/react-static-plugin-reach-router/browser.api.js",
+    "/Users/elsu/Desktop/log/site/node_modules/react-static-plugin-sitemap/dist/node.api.js",
+    "/Users/elsu/Desktop/log/site"
+  ],
+  "paths": {
+    "ROOT": "/Users/elsu/Desktop/log/site",
+    "SRC": "/Users/elsu/Desktop/log/site/src",
+    "DIST": "/Users/elsu/Desktop/log/site/dist",
+    "ASSETS": "/Users/elsu/Desktop/log/site/dist",
+    "PLUGINS": "/Users/elsu/Desktop/log/site/plugins",
+    "TEMP": "/Users/elsu/Desktop/log/site/tmp",
+    "ARTIFACTS": "/Users/elsu/Desktop/log/site/artifacts",
+    "PUBLIC": "/Users/elsu/Desktop/log/site/public",
+    "NODE_MODULES": "/Users/elsu/Desktop/log/site/node_modules",
+    "EXCLUDE_MODULES": "/Users/elsu/Desktop/log/site/node_modules",
+    "PACKAGE": "/Users/elsu/Desktop/log/site/package.json",
+    "HTML_TEMPLATE": "/Users/elsu/Desktop/log/site/dist/index.html",
+    "STATIC_DATA": "/Users/elsu/Desktop/log/site/dist/staticData"
+  },
+  "siteRoot": "/",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}
